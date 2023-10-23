@@ -1,3 +1,4 @@
+
 package com.example.bigdata_project.controller;
 
 import org.springframework.stereotype.Controller;
@@ -58,28 +59,28 @@ public class PageController {
     @GetMapping("/url_code(강서_주점업장수).html")
     public String tester7(){
         System.out.println("Asdfasdfasdf");
-        return "url_code(강동_주점업장수)";
+        return "url_code(강서_주점업장수)";
     }
 
     @GetMapping("/url_code(강서_인프라수).html")
     public String tester8(){
         System.out.println("Asdfasdfasdf");
-        return "url_code(강동_인프라수)";
+        return "url_code(강서_인프라수)";
     }
     @GetMapping("/url_code(강서_유동인구필터링).html")
     public String tester9(){
         System.out.println("Asdfasdfasdf");
-        return "url_code(강동_유동인구필터링)";
+        return "url_code(강서_유동인구필터링)";
     }
     @GetMapping("/url_code(강서_퇴근시간유입인구).html")
     public String tester10(){
         System.out.println("Asdfasdfasdf");
-        return "url_code(강동_퇴근시간유입인구)";
+        return "url_code(강서_퇴근시간유입인구)";
     }
     @GetMapping("/url_code(강서_경찰관수대비).html")
     public String tester11(){
         System.out.println("Asdfasdfasdf");
-        return "url_code(강동_경찰관수대비)";
+        return "url_code(강서_경찰관수대비)";
     }
 
     //강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남//강남
